@@ -1,5 +1,7 @@
 # Shop Tweaks
 
+Tweaks the discord shop and removes useless things
+
 ## With Shop Tweaks
 
 (nitro)
