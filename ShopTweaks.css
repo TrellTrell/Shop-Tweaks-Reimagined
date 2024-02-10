@@ -1,7 +1,7 @@
 /**
  * @name Shop Tweaks
  * @author DTACat
- * @version 1.2.0
+ * @version 1.3.0
  * @description Tweaks the shop a little (i know amazing right).
  * @source https://github.com/DTACat/Custom-Effects-And-Decorations-Discord-Theme
  * @website https://sites.google.com/view/goofytests/home-page
@@ -36,3 +36,10 @@
     display: none;
 }
 
+.purchaseButton_e05b73 {
+  border-radius: 10px;
+}
+
+.giftButton_bb2551 {
+  border-radius: 10px;
+}
