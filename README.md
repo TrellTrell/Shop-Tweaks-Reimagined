@@ -1,6 +1,7 @@
 # Shop Tweaks
 
 Tweaks the discord shop and removes useless things
+(Thanks Discord for stealing this and not crediting me)
 
 ## With Shop Tweaks
 
