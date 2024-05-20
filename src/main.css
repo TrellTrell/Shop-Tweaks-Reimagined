@@ -1,0 +1,95 @@
+/* Cards */
+[class*="Shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
+    width: 105%;
+    margin-left: -2.5%;
+}
+
+/* Name */
+[class*="Shop"] [class*="productName"] {
+    display: block;
+    text-align: center;
+}
+
+/* Price */
+[class*="Shop"] [class*="priceTag"] {
+    display: block;
+    text-align: center;
+    scale: 150%;
+}
+
+[class*="Shop"] [aria-label="Nitro exclusive"] {
+    display: none;
+}
+
+[class*="Shop"] [class*="fullPrice"] {
+    display: none;
+}
+
+[class*="Shop"] [class*="strikedPrice"] {
+    display: none;
+}
+
+/* Buttons */
+[class*="Shop"] [class*="button"] [class*="content"] {
+    scale: 120%;
+}
+
+[class*="Shop"] [class*="button"] {
+    border-radius: 15px;
+}
+
+/* Modals */
+
+/* Effect Preview */
+[class*="root"] [class*="profileEffectContainer"] {
+    scale: 1.5;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Deco Preview */
+[class*="root"] [class*="giftPreview"] [class*="avatarDecoration"] {
+    scale: 1.5;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Already Owned Error */
+[class*="root"] [class*="recipientError"] {
+    scale: 1.5;
+    margin-left: -45px;
+}
+
+/* buttons */
+[class*="collectibleInfoContainer"] [class*="button"] {
+    border-radius: 15px;
+}
+
+[class*="collectibleInfoContainer"] [class*="button"] [class*="content"] {
+    scale: 120%;
+}
+
+/* Price */
+
+[class*="collectibleInfoContainer"] [class*="premiumPrice"] {
+    display: none;
+}
+
+[class*="collectibleInfoContainer"] [class*="strikedPrice"] {
+    display: none;
+}
+
+[class*="collectibleInfoContainer"] [class*="priceTags"] {
+    scale: 1.5;
+    margin-right: 20px;
+	margin-left: 14px;
+}
+
+[class*="collectibleInfoContainer"] [class*="priceTagC"] {
+    scale: 1.5;
+    margin-right: 270px;
+}
+
+[class*="collectibleInfoContainer"] [class*="priceTags"] [aria-label="Nitro exclusive"] {
+    display: none;
+}
