@@ -1,24 +1,37 @@
 # Shop Tweaks
 
-Tweaks the discord shop and removes useless things
-(Thanks Discord for stealing this and not crediting me)
+Tweaks the discord shop a little more than the last one
+
+### What it changes:
+
+- Removes the price you wont be paying
+
+- Rounds the button edges for a cleaner look
+
+- Makes the gift preview bigger
+
+### Works well with: 
+
+- [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
+
+# Preview
 
 ## With Shop Tweaks
 
 (nitro)
 
-![image](https://github.com/DTACat/Custom-Effects-And-Decorations-Discord-Theme/assets/141873540/98a9fa69-7f84-4c02-aedb-a6571054f826)
+![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/604ce63e-3156-4cf7-af49-46d6bd9b3d0e)
 
 (no nitro)
 
-![image](https://github.com/DTACat/Custom-Effects-And-Decorations-Discord-Theme/assets/141873540/633e7f48-3536-4c0a-985b-d79677859cd6)
+![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/b23e9fca-a1da-49f2-ba42-a251997209aa)
 
 ## Without Shop Tweaks
 
 (nitro)
 
-![image](https://github.com/DTACat/Custom-Effects-And-Decorations-Discord-Theme/assets/141873540/33bdbf68-6f3f-4cf4-bb44-46f1f341049b)
+![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/582dbacd-7578-4925-ae2d-8f8363315881)
 
 (no nitro)
 
-![image](https://github.com/DTACat/Custom-Effects-And-Decorations-Discord-Theme/assets/141873540/cc15f3cd-5107-4562-9b90-5bb59fc1e8eb)
+![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/eb967bb7-3fe0-4752-ba5f-e3f8c75d8ce1)
