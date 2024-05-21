@@ -10,11 +10,9 @@ Tweaks the discord shop a little more than the last one
 
 - Makes the gift preview bigger
 
-### Works well with: 
+- Adds colour back to the shop with [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
 
-- [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
-
-# Preview
+# Preview (Without Re-Colour)
 
 ## With Shop Tweaks
 
