@@ -25,7 +25,7 @@
     display: none;
 }
 
-[class*="Shop"] [class*="strikedPrice"] {
+[class*="Shop"] [class*="striked"] {
     display: none;
 }
 
@@ -92,4 +92,12 @@
 
 [class*="collectibleInfoContainer"] [class*="priceTags"] [aria-label="Nitro exclusive"] {
     display: none;
+}
+
+[class*="cardBackground"] {
+    opacity: 30%;
+}
+
+[id*="shop-item"] {
+	border: none;
 }
