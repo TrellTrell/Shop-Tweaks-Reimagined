@@ -15,6 +15,12 @@
     display: block;
     text-align: center;
     scale: 150%;
+}
+
+[class*="Shop"] [class*="priceTag"]:has([class*="fullPrice"]) {
+    display: block;
+    text-align: center;
+    scale: 150%;
     margin-left: 5px;
 }
 
