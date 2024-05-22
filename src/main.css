@@ -15,17 +15,17 @@
     display: block;
     text-align: center;
     scale: 150%;
+    margin-left: 5px;
 }
 
-[class*="Shop"] [aria-label="Nitro exclusive"] {
-    display: none;
+[class*="Shop"] [class*="priceTag"]:has([class*="striked"]) {
+    display: block;
+    text-align: center;
+    scale: 150%;
+    margin-left: 10px;
 }
 
-[class*="Shop"] [class*="fullPrice"] {
-    display: none;
-}
-
-[class*="Shop"] [class*="striked"] {
+[class*="Shop"] [class*="dimmed"] {
     display: none;
 }
 
@@ -71,18 +71,8 @@
 
 /* Price */
 
-[class*="collectibleInfoContainer"] [class*="premiumPrice"] {
+[class*="collectibleInfoContainer"] [aria-label="Nitro exclusive"] {
     display: none;
-}
-
-[class*="collectibleInfoContainer"] [class*="strikedPrice"] {
-    display: none;
-}
-
-[class*="collectibleInfoContainer"] [class*="priceTags"] {
-    scale: 1.5;
-    margin-right: 20px;
-	margin-left: 14px;
 }
 
 [class*="collectibleInfoContainer"] [class*="priceTagC"] {
@@ -90,7 +80,7 @@
     margin-right: 270px;
 }
 
-[class*="collectibleInfoContainer"] [class*="priceTags"] [aria-label="Nitro exclusive"] {
+[class*="collectibleInfoContainer"] [class*="dimmed"] {
     display: none;
 }
 
