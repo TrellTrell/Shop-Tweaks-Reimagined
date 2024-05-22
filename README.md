@@ -12,17 +12,17 @@ Tweaks the discord shop a little more than the last one
 
 - Adds colour back to the shop with [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
 
-# Preview (Without Re-Colour)
+# Preview
 
 ## With Shop Tweaks
 
 (nitro)
 
-![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/604ce63e-3156-4cf7-af49-46d6bd9b3d0e)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/141873540/aef04ac6-2270-4559-b121-00b3fd58d3af)
 
 (no nitro)
 
-![image](https://github.com/TrellTrell/Trells-Shop-Tweaks/assets/149860492/b23e9fca-a1da-49f2-ba42-a251997209aa)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/141873540/c2154d4f-6561-4943-9f30-08c601cadf11)
 
 ## Without Shop Tweaks
 
