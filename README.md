@@ -18,11 +18,11 @@ Tweaks the discord shop a little more than the last one
 
 (nitro)
 
-![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/141873540/aef04ac6-2270-4559-b121-00b3fd58d3af)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/b75e00f0-e779-4336-85b9-29cf57de5943)
 
 (no nitro)
 
-![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/141873540/c2154d4f-6561-4943-9f30-08c601cadf11)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/3591e68f-7789-46ef-8e7a-e250ba93d284)
 
 ## Without Shop Tweaks
 
