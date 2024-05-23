@@ -46,6 +46,10 @@
 	background-image: linear-gradient(90deg, rgb(237, 213, 80), rgb(251, 127, 50));
 	color: black;
 }
+[class*="categoryWrapper"]:has([id="shop-item-1217624148080332820"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(251, 127, 50), rgb(251, 127, 50));
+	color: black;
+}
 
 /*AnimeV2*/
 [class*="categoryWrapper"]:has([id="shop-item-1212569433839636530"]) [id*="shop-item"] {
@@ -53,6 +57,10 @@
 }
 [class*="categoryWrapper"]:has([id="shop-item-1212569433839636530"]) [type="button"] {
 	background-image: linear-gradient(90deg, rgb(66, 183, 255), rgb(121, 93, 223));
+	color: black;
+}
+[class*="categoryWrapper"]:has([id="shop-item-1212569433839636530"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(121, 93, 223), rgb(121, 93, 223));
 	color: black;
 }
 
@@ -64,6 +72,10 @@
 	background-image: linear-gradient(90deg, rgb(235, 190, 25), rgb(242, 135, 13));
 	color: black;
 }
+[class*="categoryWrapper"]:has([id="shop-item-1207047014769234001"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(242, 135, 13), rgb(242, 135, 13));
+	color: black;
+}
 
 /*Cyberpunk*/
 [class*="categoryWrapper"]:has([id="shop-item-1197344326133502032"]) [id*="shop-item"] {
@@ -71,6 +83,9 @@
 }
 [class*="categoryWrapper"]:has([id="shop-item-1197344326133502032"]) [type="button"] {
 	background-image: linear-gradient(90deg, rgb(75, 68, 218), rgb(54, 54, 181));
+}
+[class*="categoryWrapper"]:has([id="shop-item-1197344326133502032"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(54, 54, 181), rgb(54, 54, 181));
 }
 
 /*Fantasy*/
@@ -80,6 +95,9 @@
 [class*="categoryWrapper"]:has([id="shop-item-1144003752978829455"]) [type="button"] {
 	background-image: linear-gradient(90deg, rgb(2, 136, 55), rgb(0, 107, 75));
 }
+[class*="categoryWrapper"]:has([id="shop-item-1144003752978829455"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(0, 107, 75), rgb(0, 107, 75));
+}
 
 /*DisXcore*/
 [class*="categoryWrapper"]:has([id="shop-item-1144058522808614923"]) [id*="shop-item"] {
@@ -87,4 +105,7 @@
 }
 [class*="categoryWrapper"]:has([id="shop-item-1144058522808614923"]) [type="button"] {
 	background-image: linear-gradient(90deg, rgb(133, 72, 199), rgb(184, 68, 193));
+}
+[class*="categoryWrapper"]:has([id="shop-item-1144058522808614923"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(184, 68, 193), rgb(184, 68, 193));
 }
