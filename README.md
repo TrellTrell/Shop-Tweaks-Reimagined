@@ -1,6 +1,6 @@
 # Shop Tweaks
 
-Tweaks the discord shop a little more than the last one
+Brings back the look of the old Discord Shop with a few extra things.
 
 ### What it changes:
 
