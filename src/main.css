@@ -1,7 +1,33 @@
 /* Cards */
+[class*="Shop"] [class*="profileEffect"] [class*="previewContainer"] {
+    scale: 80%;
+    margin-top: -20px;
+}
+
+[class*="Shop"] [class*="overflowContainer"] {
+    width: 105%;
+}
+
+[class*="Shop"] [class*="shopCard"] {
+    border-radius: 30px;
+}
+
+[class*="Shop"] [class*="cardTextBlur"] {
+    backdrop-filter: none;
+}
+
 [class*="Shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
     width: 105%;
     margin-left: -2.5%;
+}
+
+[class*="cardBackground"] {
+    opacity: 20%;
+}
+
+[class*="Shop"] [class*="cardLowOpacity"] {
+    background-color: black;
+    opacity: 0.4;
 }
 
 /* Name */
@@ -88,10 +114,6 @@
 
 [class*="collectibleInfoContainer"] [class*="dimmed"] {
     display: none;
-}
-
-[class*="cardBackground"] {
-    opacity: 30%;
 }
 
 [id*="shop-item"] {
