@@ -1,6 +1,4 @@
-# Shop Tweaks
-
-Brings back the look of the old Discord Shop with a few extra things.
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/b51b12b4-8b90-4874-9ca5-20aa8240fc8b)
 
 ### What it changes:
 
