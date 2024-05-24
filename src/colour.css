@@ -1,3 +1,144 @@
+/* Cards */
+[class*="Shop"] [class*="profileEffect"] [class*="previewContainer"] {
+    scale: 80%;
+    margin-top: -20px;
+}
+
+[class*="Shop"] [class*="overflowContainer"] {
+    width: 105%;
+    border-radius: 30px;
+}
+
+[class*="Shop"] [class*="shopCard"] {
+    border-radius: 30px;
+}
+
+[class*="Shop"] [class*="cardTextBlur"] {
+    backdrop-filter: none;
+}
+
+[class*="Shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
+    width: 105%;
+    margin-left: -2.5%;
+}
+
+[class*="cardBackground"] {
+    background-color: black;
+    opacity: 40%;
+    transition: opacity 0.4s ease-in-out;
+}
+
+[class*="Shop"] [class*="cardLowOpacity"] {
+    background-color: black;
+    opacity: 0.4;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/* Name */
+[class*="Shop"] [class*="productName"] {
+    display: block;
+    text-align: center;
+}
+
+/* Price */
+[class*="Shop"] [class*="priceTag"] {
+    display: block;
+    text-align: center;
+    scale: 150%;
+}
+
+[class*="Shop"] [class*="priceTag"]:has([class*="fullPrice"]) {
+    display: block;
+    text-align: center;
+    scale: 150%;
+    margin-left: 5px;
+}
+
+[class*="Shop"] [class*="priceTag"]:has([class*="striked"]) {
+    display: block;
+    text-align: center;
+    scale: 150%;
+    margin-left: 10px;
+}
+
+[class*="Shop"] [class*="dimmed"] {
+    display: none;
+}
+
+/* Buttons */
+[class*="Shop"] [class*="button"] [class*="content"] {
+    scale: 120%;
+}
+
+[class*="Shop"] [class*="button"] {
+    border-radius: 15px;
+}
+
+/* Modals */
+
+/* Effect Preview */
+[class*="root"] [class*="profileEffectContainer"] {
+    scale: 1.5;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Deco Preview */
+[class*="root"] [class*="giftPreview"] [class*="avatarDecoration"] {
+    scale: 1.5;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Already Owned Error */
+[class*="root"] [class*="recipientError"] {
+    scale: 1.5;
+    margin-left: -45px;
+}
+
+/* buttons */
+[class*="collectibleInfoContainer"] [class*="button"] {
+    border-radius: 15px;
+}
+
+[class*="collectibleInfoContainer"] [class*="button"] [class*="content"] {
+    scale: 120%;
+}
+
+/* Price */
+
+[class*="collectibleInfoContainer"] [aria-label="Nitro exclusive"] {
+    display: none;
+}
+
+[class*="collectibleInfoContainer"] [class*="priceTagC"] {
+    scale: 1.5;
+    margin-right: 270px;
+}
+
+[class*="collectibleInfoContainer"] [class*="dimmed"] {
+    display: none;
+}
+
+[id*="shop-item"] {
+	border: none;
+}
+
+
+[src*="/assets/5f627582fcdc1bba2aed.png"] {
+	object-position: 99999px;
+	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/StellaDynamicBannerProfile.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+[src*="/assets/e91a4c7f419794213d7b.png"] {
+	object-position: 99999px;
+	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/DTACatDynamicBannerProfile.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
 [class*="Shop"] [class*="shopCard"]:has([aria-label="Close"]) [type="button"]:not([aria-label="Close"]) {
     background-image: linear-gradient(90deg, rgb(5, 129, 75), rgb(5, 129, 75));
     border-radius: 10px;
