@@ -1,23 +1,23 @@
 /* Cards */
-[class*="Shop"] [class*="profileEffect"] [class*="previewContainer"] {
+[class*="shop"] [class*="profileEffect"] [class*="previewContainer"] {
     scale: 80%;
     margin-top: -20px;
 }
 
-[class*="Shop"] [class*="overflowContainer"] {
+[class*="shop"] [class*="overflowContainer"] {
     width: 105%;
     border-radius: 30px;
 }
 
-[class*="Shop"] [class*="shopCard"] {
+[class*="shop"] [class*="shopCard"] {
     border-radius: 30px;
 }
 
-[class*="Shop"] [class*="cardTextBlur"] {
+[class*="shop"] [class*="cardTextBlur"] {
     backdrop-filter: none;
 }
 
-[class*="Shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
+[class*="shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
     width: 105%;
     margin-left: -2.5%;
 }
@@ -28,49 +28,49 @@
     transition: opacity 0.4s ease-in-out;
 }
 
-[class*="Shop"] [class*="cardLowOpacity"] {
+[class*="shop"] [class*="cardLowOpacity"] {
     background-color: black;
     opacity: 0.4;
     transition: opacity 0.4s ease-in-out;
 }
 
 /* Name */
-[class*="Shop"] [class*="productName"] {
+[class*="shop"] [class*="productName"] {
     display: block;
     text-align: center;
 }
 
 /* Price */
-[class*="Shop"] [class*="priceTag"] {
+[class*="shop"] [class*="priceTag"] {
     display: block;
     text-align: center;
     scale: 150%;
 }
 
-[class*="Shop"] [class*="priceTag"]:has([class*="fullPrice"]) {
+[class*="shop"] [class*="priceTag"]:has([class*="fullPrice"]) {
     display: block;
     text-align: center;
     scale: 150%;
     margin-left: 5px;
 }
 
-[class*="Shop"] [class*="priceTag"]:has([class*="striked"]) {
+[class*="shop"] [class*="priceTag"]:has([class*="striked"]) {
     display: block;
     text-align: center;
     scale: 150%;
     margin-left: 10px;
 }
 
-[class*="Shop"] [class*="dimmed"] {
+[class*="shop"] [class*="dimmed"] {
     display: none;
 }
 
 /* Buttons */
-[class*="Shop"] [class*="button"] [class*="content"] {
+[class*="shop"] [class*="button"] [class*="content"] {
     scale: 120%;
 }
 
-[class*="Shop"] [class*="button"] {
+[class*="shop"] [class*="button"] {
     border-radius: 15px;
 }
 
@@ -139,12 +139,12 @@
 }
 
 
-[class*="Shop"] [class*="shopCard"]:has([aria-label="Close"]) [type="button"]:not([aria-label="Close"]) {
+[class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [type="button"]:not([aria-label="Close"]) {
     background-image: linear-gradient(90deg, rgb(5, 129, 75), rgb(5, 129, 75));
     border-radius: 10px;
     color: white;
 }
-[class*="Shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="cardBackground"] {
+[class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="cardBackground"] {
     opacity: 0.9;
 }
 
