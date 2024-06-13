@@ -1,15 +1,18 @@
 /* Cards */
-[class*="shop"] [class*="profileEffect"] [class*="previewContainer"] {
-    scale: 80%;
-    margin-top: -20px;
+[class*="shop"] [class*="shopCard"]:not(:has([class*="avatarDecoration"])) [class*="profileEffect"] [class*="previewContainer"] {
+    scale: 65%;
+    margin-top: -75px;
+	bottom: auto;
 }
 
 [class*="shop"] [class*="overflowContainer"] {
-    width: 105%;
+	width: 105%;
     border-radius: 30px;
 }
 
 [class*="shop"] [class*="shopCard"] {
+	width: 105%;
+	height: 380px;
     border-radius: 30px;
 }
 
@@ -18,8 +21,8 @@
 }
 
 [class*="shop"] [class*="categoryWrapper"] [class*="cardsContainer"] {
-    width: 105%;
-    margin-left: -2.5%;
+    width: 99%;
+    margin-left: -0.5%;
 }
 
 [class*="cardBackground"] {
@@ -125,13 +128,16 @@
 }
 
 
-[src*="/assets/5f627582fcdc1bba2aed.png"] {
+[src*="/assets/f3a5dd9ed90e2f8d609e.png"] {
 	object-position: 99999px;
 	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/StellaDynamicBannerProfile.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-[src*="/assets/e91a4c7f419794213d7b.png"] {
+[src*="/assets/e4fec6e8849cddd1b454.png"] {
+	display: none;
+}
+[src*="/assets/71b168d4c57fd1658681.png"] {
 	object-position: 99999px;
 	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/DTACatDynamicBannerProfile.png);
 	background-size: 100%;
@@ -146,6 +152,26 @@
 }
 [class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="cardBackground"] {
     opacity: 0.9;
+}
+
+/*Arcade*/
+[class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [id*="shop-item"] {
+	background-image: linear-gradient(rgb(3, 2, 36), rgb(8, 1, 43));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [type="button"]:not([aria-label="Close"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1245086730785390793.png"]) [class*="collectibleInfo"] {
+	background-image: linear-gradient(rgb(3, 2, 36), rgb(8, 1, 43));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1245086730785390793.png"]) [class*="collectibleInfo"] [type="button"] {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1245086730785390793.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
 /*Retro*/
