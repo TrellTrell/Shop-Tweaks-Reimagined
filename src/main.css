@@ -11,13 +11,13 @@
 
 [class*="shop"] [class*="overflowContainer"] {
 	width: 105%;
-    border-radius: 30px;
+    border-radius: 32px;
 }
 
 [class*="shop"] [class*="shopCard"] {
 	width: 105%;
 	height: 380px;
-    border-radius: 30px;
+    border-radius: 32px;
 }
 
 [class*="shop"] [class*="cardTextBlur"] {
@@ -269,8 +269,11 @@
     color: white;
 }
 [class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="cardBackground"] {
-    opacity: 0.9;
-	background-color: black;
+    opacity: 0.7;
+	background-color: rgb(0, 0, 0);
+}
+[class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="defaultColor"] {
+	color: white;
 }
 
 /*Arcade*/
