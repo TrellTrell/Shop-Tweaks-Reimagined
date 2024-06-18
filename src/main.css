@@ -1,6 +1,6 @@
 /* Cards */
 [src*="/assets/67051f70d2dadad82cee.png"] {
-    content: url(/assets/df9e82d1f92122c08f9a.png);
+    content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/ff84fa219ab7e996ec26.png);
 }
 
 [class*="shop"] [class*="shopCard"]:not(:has([class*="avatarDecoration"])) [class*="profileEffect"] [class*="previewContainer"] {
