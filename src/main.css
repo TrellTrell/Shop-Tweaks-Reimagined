@@ -32,19 +32,16 @@
 [class*="cardBackground"] {
     background: none;
     opacity: 0.5;
+	transition: background-color 0.4s ease-in-out;
 }
 
-[class*="shop"] [class*="shopCard"]:has([class*="profileEffect"]) [class*="cardText"] {
-    height: 50%;
-}
-[class*="shop"] [class*="shopCard"]:has([class*="profileEffect"]) [class*="productName"] {
-    margin-top: 65px;
-}
+
 
 [class*="shop"] [class*="cardLowOpacity"] {
     background: none;
-    background-image: linear-gradient(rgba(3, 2, 36, 0), rgb(0, 0, 0) 95%);
+    background-image: linear-gradient(rgba(3, 2, 36, 0), rgb(0, 0, 0) 90%);
     opacity: 1;
+	transition: background-color 0.4s ease-in-out;
 }
 
 /* Name */
@@ -231,14 +228,13 @@
 }
 
 /* Price */
-
 [class*="collectibleInfoContainer"] [aria-label="Nitro exclusive"] {
     display: none;
 }
 
-[class*="collectibleInfoContainer"] [class*="priceTagC"] {
+[class*="collectibleInfoContainer"] [class*="priceTag"] {
     scale: 1.5;
-    margin-right: 270px;
+    margin-left: 14px;
 }
 
 [class*="collectibleInfoContainer"] [class*="dimmed"] {
@@ -274,6 +270,7 @@
 }
 [class*="shop"] [class*="shopCard"]:has([aria-label="Close"]) [class*="cardBackground"] {
     opacity: 0.9;
+	background-color: black;
 }
 
 /*Arcade*/
