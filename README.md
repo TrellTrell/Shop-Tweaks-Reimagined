@@ -13,6 +13,7 @@
 - Adds colour back to the shop with [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
 
 # Preview
+Due to the recent Discord update, I am unable to provide accurate previews.
 
 (nitro)
 
