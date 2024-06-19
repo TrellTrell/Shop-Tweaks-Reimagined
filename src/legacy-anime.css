@@ -28,3 +28,7 @@
     content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563319296995408.png?size=4096);
     scale: 160%;
 }
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="categoryLogo"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563319296995408.png?size=4096);
+    scale: 100%;
+}
