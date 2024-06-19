@@ -1,6 +1,6 @@
 /* Cards */
-[src*="/assets/67051f70d2dadad82cee.png"] {
-    content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/ff84fa219ab7e996ec26.png);
+[class*="shop"] [class*="avatarStack"] [src*="assets"] {
+    content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/6d8f0708e196aaad2550.png);
 }
 
 [class*="shop"] [class*="shopCard"]:not(:has([class*="avatarDecoration"])) [class*="profileEffect"] [class*="previewContainer"] {
@@ -91,99 +91,12 @@
     border-radius: 40px;
 }
 
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/c72d770b6bea4566b079.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1245087533205819452.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/c72d770b6bea4566b079.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 140%;
+[class*="shop"]:has([class*="condensedBanner"]) [class*="itemTypeTitle"] {
+    margin-top: 80px;
 }
 
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/4a1258e43517695c46c3.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1232037253274927134.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/4a1258e43517695c46c3.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 120%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/c046422433c47568f1b0.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1228245273768230943.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/c046422433c47568f1b0.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 140%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/eb6f17c52d1b3c256322.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1212565236721389588.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/eb6f17c52d1b3c256322.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/beaf9cfcc4d723f38862.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1207046965909655592.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/d391b991f8af92641340.png"] {
-    display: none;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/beaf9cfcc4d723f38862.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 140%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/af5188cfb866241a3f99.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1197343893742694470.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/af5188cfb866241a3f99.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 120%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/0512fa5fbf20407f6af9.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562682983321630.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/0512fa5fbf20407f6af9.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/9015980c33a1df37bc7a.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237649691953336363.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/9015980c33a1df37bc7a.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/b038627d621de99b130b.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237653638738874408.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/b038627d621de99b130b.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/ada3182cdace8ec9185e.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1217623891149586563.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/ada3182cdace8ec9185e.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 110%;
-}
-
-[class*="shop"] [class*="condensedBanner"] [src*="/assets/650647a639c1bedfd06b.jpg"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562891666731108.jpg?size=4096);
-    height: auto;
-}
-[class*="shop"] [class*="condensedBanner"]:has([src*="/assets/650647a639c1bedfd06b.jpg"]) [class*="condensedCategoryLogo"] {
-    scale: 100%;
-}
-
-[class*="shop"]:has([class*="condensedBanner"]) [class*="cardsContainer"] {
-    margin-top: 60px;
+[class*="shop"]:has(:not([class*="itemTypeTitle"]) [class*="condensedBanner"]) [class*="cardsContainer"] {
+    margin-top: 80px;
 }
 
 
@@ -298,6 +211,14 @@
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1245087533205819452.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [class*="condensedCategoryLogo"] {
+    scale: 140%;
+}
+
 /*Retro*/
 [class*="categoryWrapper"]:has([id*="shop-item-1237649939027333232"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(223, 96, 255), rgb(128, 88, 253));
@@ -320,6 +241,14 @@
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237649939027333232"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237649691953336363.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237649939027333232"]) [class*="condensedCategoryLogo"] {
+    scale: 160%;
+}
+
 /*Prates*/
 [class*="categoryWrapper"]:has([id*="shop-item-1237653964582031400"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(42, 28, 25), rgb(123, 50, 28));
@@ -340,6 +269,14 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1237937696991740044.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237653964582031400"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237653638738874408.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237653964582031400"]) [class*="condensedCategoryLogo"] {
+    scale: 160%;
 }
 
 
@@ -365,6 +302,14 @@
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1232070870093008937"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1232037253274927134.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1232070870093008937"]) [class*="condensedCategoryLogo"] {
+    scale: 120%;
+}
+
 
 /*Lofi*/
 [class*="categoryWrapper"]:has([id*="shop-item-1228246010116050965"]) [id*="shop-item"] {
@@ -386,6 +331,14 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1228245117085679668.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1228246010116050965"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1228245273768230943.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1228246010116050965"]) [class*="condensedCategoryLogo"] {
+    scale: 150%;
 }
 
 /*Volorant*/
@@ -445,6 +398,14 @@
 	color: black;
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1217623891149586563.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [class*="condensedCategoryLogo"] {
+    scale: 120%;
+}
+
 /*AnimeV2*/
 [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(173, 255, 254), rgb(2, 61, 116));
@@ -472,6 +433,14 @@
 	color: black;
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1212565236721389588.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="condensedCategoryLogo"] {
+    scale: 160%;
+}
+
 /*Elements*/
 [class*="categoryWrapper"]:has([id*="shop-item-1207047014769234001"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(27, 27, 161), rgb(0, 22, 41));
@@ -497,6 +466,17 @@
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1207046939544129577.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(242, 135, 13), rgb(242, 135, 13));
 	color: black;
+}
+
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1207047014769234001"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1207046965909655592.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"] [class*="condensedBanner"] [class*="overflowImage"] {
+    display: none;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1207047014769234001"]) [class*="condensedCategoryLogo"] {
+    scale: 130%;
 }
 
 /*Lunar*/
@@ -546,6 +526,14 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1197343875023523930.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(54, 54, 181), rgb(54, 54, 181));
+}
+
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1197344326133502032"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1197343893742694470.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1197344326133502032"]) [class*="condensedCategoryLogo"] {
+    scale: 120%;
 }
 
 /*Monsters*/
@@ -670,6 +658,14 @@
 	background-image: linear-gradient(90deg, rgb(0, 107, 75), rgb(0, 107, 75));
 }
 
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144003752978829455"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562682983321630.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144003752978829455"]) [class*="condensedCategoryLogo"] {
+    scale: 190%;
+}
+
 /*Breakfast*/
 [class*="categoryWrapper"]:has([id*="shop-item-1144056139584127058"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(232, 178, 107), rgb(122, 58, 0));
@@ -716,4 +712,12 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149562888290320414.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(184, 68, 193), rgb(184, 68, 193));
+}
+
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144058522808614923"]) [class*="condensedBanner"] [class*="condensedBanner"] {
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562891666731108.jpg?size=4096);
+    height: auto;
+}
+[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144058522808614923"]) [class*="condensedCategoryLogo"] {
+    scale: 110%;
 }
