@@ -3,6 +3,10 @@
     content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/6d8f0708e196aaad2550.png);
 }
 
+[src*="https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/"] {
+    content: url(https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png);
+}
+
 [class*="shop"] [class*="shopCard"]:not(:has([class*="avatarDecoration"])) [class*="profileEffect"] [class*="previewContainer"] {
     scale: 65%;
     margin-top: -75px;
@@ -159,20 +163,14 @@
 }
 
 
-[src*="/assets/f3a5dd9ed90e2f8d609e.png"] {
-	object-position: 99999px;
-	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/StellaDynamicBannerProfile.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
+[src*="/assets/932c1e865521c714498b.png"] {
+	content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/StellaDynamicBannerProfile.png);
 }
-[src*="/assets/e4fec6e8849cddd1b454.png"] {
+[src*="/assets/112b94efbfb960f1c9a3.png"] {
 	display: none;
 }
-[src*="/assets/71b168d4c57fd1658681.png"] {
-	object-position: 99999px;
-	background-image: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/DTACatDynamicBannerProfile.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
+[src*="/assets/ddae8511cce6b7dec07f.png"] {
+	content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/DTACatDynamicBannerProfile.png);
 }
 
 
@@ -216,7 +214,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1245087661316898877"]) [class*="condensedCategoryLogo"] {
-    scale: 140%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1245086730785390793.png?size=4096);
+    scale: 90%;
 }
 
 /*Retro*/
@@ -246,7 +245,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237649939027333232"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237937648727756883.png?size=4096);
+    scale: 100%;
 }
 
 /*Prates*/
@@ -276,7 +276,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1237653964582031400"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1237937696991740044.png?size=4096);
+    scale: 100%;
 }
 
 
@@ -307,7 +308,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1232070870093008937"]) [class*="condensedCategoryLogo"] {
-    scale: 120%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1232037193464418374.png?size=4096);
+    scale: 70%;
 }
 
 
@@ -338,7 +340,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1228246010116050965"]) [class*="condensedCategoryLogo"] {
-    scale: 150%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1228245117085679668.png?size=4096);
+    scale: 90%;
 }
 
 /*Volorant*/
@@ -403,7 +406,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [class*="condensedCategoryLogo"] {
-    scale: 120%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1217623684777381908.png?size=4096);
+    scale: 60%;
 }
 
 /*AnimeV2*/
@@ -438,7 +442,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="condensedCategoryLogo"] {
-    scale: 160%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1212565210682884167.png?size=4096);
+    scale: 100%;
 }
 
 /*Elements*/
@@ -476,7 +481,8 @@
     display: none;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1207047014769234001"]) [class*="condensedCategoryLogo"] {
-    scale: 130%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1207046939544129577.png?size=4096);
+    scale: 80%;
 }
 
 /*Lunar*/
@@ -533,7 +539,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1197344326133502032"]) [class*="condensedCategoryLogo"] {
-    scale: 120%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1197343875023523930.png?size=4096);
+    scale: 70%;
 }
 
 /*Monsters*/
@@ -663,7 +670,8 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144003752978829455"]) [class*="condensedCategoryLogo"] {
-    scale: 190%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562562103484467.png?size=4096);
+    scale: 90%;
 }
 
 /*Breakfast*/
@@ -719,5 +727,6 @@
     height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1144058522808614923"]) [class*="condensedCategoryLogo"] {
-    scale: 110%;
+    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149562888290320414.png?size=4096);
+    scale: 60%;
 }
