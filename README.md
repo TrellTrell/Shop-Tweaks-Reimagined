@@ -13,12 +13,15 @@
 - Adds colour back to the shop with [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
 
 # Preview
-Due to the recent Discord update, I am unable to provide accurate previews.
+
+(bundles)
+
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/3139d00a-7dcd-4ad2-b76c-9583aa2f5622)
 
 (nitro)
 
-![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/c672f058-3f5d-4a44-b5a3-32128e3f3f41)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/56c3d704-7c5c-4f55-9733-94a9786e446f)
 
 (no nitro)
 
-![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/304ea560-ca1c-41d8-b4af-f138ec39488e)
+![image](https://github.com/TrellTrell/Shop-Tweaks-Reimagined/assets/149860492/2c8c7a26-bfad-450f-843f-b89157d98976)
