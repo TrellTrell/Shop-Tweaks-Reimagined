@@ -22,19 +22,8 @@
 
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="condensedBanner"] [class*="condensedBanner"] {
     content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563322232995880.png?size=4096);
-    height: auto;
 }
 [class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="condensedCategoryLogo"] {
     content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563319296995408.png?size=4096);
-    scale: 100%;
-}
-[class*="shop"] [class*="categoryWrapper"]:has([id*="shop-item-1212569433839636530"]) [class*="categoryLogo"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563319296995408.png?size=4096);
-    scale: 100%;
-}
-
-[class*="shop"] [src*="/assets/757ae9de18965b589af7.png"] {
-    content: url(https://cdn.discordapp.com/app-assets/1096190356233670716/1149563319296995408.png?size=4096);
-    scale: 80%;
-    margin-left: -30px;
+	scale: 90%;
 }
