@@ -3,10 +3,6 @@
     content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/6d8f0708e196aaad2550.png);
 }
 
-[src*="https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/"] {
-    content: url(https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png);
-}
-
 [class*="shop"] [class*="shopCard"]:not(:has([class*="avatarDecoration"])) [class*="profileEffect"] [class*="previewContainer"] {
     scale: 65%;
     margin-top: -75px;
@@ -187,6 +183,28 @@
 [class*="popularPicks"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(0, 157, 255), rgb(0, 157, 255));
 	color: black;
+}
+
+/*Fark Fantasy*/
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [id*="shop-item"] {
+	background-image: linear-gradient(rgb(8, 27, 58), rgb(33, 20, 82));
+	--chat-border: rgb(21, 24, 71);
+	border: solid 2px;
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [type="button"]:not([aria-label="Close"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1256321669388308596.png"]) [class*="collectibleInfo"] {
+	background-image: linear-gradient(rgb(8, 27, 58), rgb(33, 20, 82));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1256321669388308596.png"]) [class*="collectibleInfo"] [type="button"] {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1256321669388308596.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
 /*Tide*/
