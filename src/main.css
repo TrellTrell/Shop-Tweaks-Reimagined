@@ -186,15 +186,15 @@
 }
 
 /*Fark Fantasy*/
-[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [id*="shop-item"] {
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669426053192"]) [id*="shop-item"] {
 	background-image: linear-gradient(rgb(8, 27, 58), rgb(33, 20, 82));
 	--chat-border: rgb(21, 24, 71);
 	border: solid 2px;
 }
-[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [type="button"]:not([aria-label="Close"]) {
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669426053192"]) [type="button"]:not([aria-label="Close"]) {
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
-[class*="categoryWrapper"]:has([id*="shop-item-1256321669388308601"]) [type="button"]:has([class*="giftButtonInner"]) {
+[class*="categoryWrapper"]:has([id*="shop-item-1256321669426053192"]) [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1256321669388308596.png"]) [class*="collectibleInfo"] {
@@ -664,6 +664,41 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149562888290320414.png"]) [class*="collectibleInfo"] [type="button"] {
 	background-image: linear-gradient(90deg, rgb(133, 72, 199), rgb(184, 68, 193));
+}
+
+/* Magic Girl */
+[src*="/magic-girl/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/magic-girl-thumbnail.png);
+}
+
+/* Sayan */
+[src*="/sayan/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/sayan-thumbnail.png);
+}
+
+/* Shuriken */
+[src*="/shuriken/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/shuriken-thumbnail.png);
+}
+
+/* Earthquake */
+[src*="/earthquake/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/earthquake-thumbnail.png);
+}
+
+/* Fairy */
+[src*="/fairy/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/fairy-thumbnail.png);
+}
+
+/* Splash */
+[src*="/splash/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/splash-thumbnail.png);
+}
+
+/* Sakura */
+[src*="/sakura/thumbnail"] {
+    content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/sakura-thumbnail.png);
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149562888290320414.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(184, 68, 193), rgb(184, 68, 193));
