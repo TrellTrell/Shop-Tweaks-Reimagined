@@ -10,6 +10,8 @@
 
 - Makes the Profile Effect preview smaller
 
+- Fixes the old effects thumbnails to get cut off at the bottom
+
 - Adds colour back to the shop with [Re-Colour](https://github.com/DTACat/Re-Colour) by [DTACat](https://github.com/DTACat)
 
 # Preview
