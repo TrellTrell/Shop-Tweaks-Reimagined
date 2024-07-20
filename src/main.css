@@ -1,4 +1,39 @@
+[class*="shop"] [class*="headerBar"]:before {
+    content: "Please note that to abuse localized pricing for collectibles, purchase your desired item on the mobile shop.";
+}
+
+[class*="shop"] [class*="pageWrapper"] {
+    background-color: var(--background-floating);
+}
+
 /* Cards */
+
+/* Bundles */
+
+[class*="shop"] [class*="shopCard"] [class*="preview"] [class*="container"] [class*="profileEffectShopPreview"] {
+    transform: rotate(0deg);
+    scale: 150%;
+    margin-top: 80px;
+    margin-left: 30px;
+    height: auto;
+}
+[class*="shop"] [class*="shopCard"]:has([class*="preview"] [class*="container"]) [class*="cardBackground"] {
+    background: none;
+    background-image: linear-gradient(rgba(3, 2, 36, 0), rgb(0, 0, 0) 90%);
+    opacity: 1;
+	transition: background-color 0.4s ease-in-out;
+}
+
+[class*="shop"] [class*="shopCard"] [class*="preview"] [class*="container"] [class*="avatarDecorationPreview"] {
+    transform: rotate(0deg);
+    scale: 110%;
+}
+[class*="shop"] [class*="shopCard"] [class*="preview"] [class*="container"] [class*="avatarStack"] [src*="assets"] {
+    content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/ff84fa219ab7e996ec26.png);
+}
+
+
+
 [class*="shop"] [class*="avatarStack"] [src*="assets"] {
     content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/6d8f0708e196aaad2550.png);
 }
@@ -127,25 +162,6 @@
     scale: 120%;
 }
 
-/* Price */
-[class*="collectibleInfoContainer"] [aria-label="Nitro exclusive"] {
-    display: none;
-}
-
-[class*="collectibleInfoContainer"] [class*="priceTag"] {
-    scale: 1.5;
-    margin-left: 14px;
-}
-
-[class*="collectibleInfoContainer"] [class*="dimmed"] {
-    display: none;
-}
-
-[id*="shop-item"] {
-	border: none;
-}
-
-
 [src*="/assets/932c1e865521c714498b.png"] {
 	content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/StellaDynamicBannerProfile.png);
 }
@@ -183,6 +199,28 @@
 [class*="popularPicks"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(0, 157, 255), rgb(0, 157, 255));
 	color: black;
+}
+
+/*Robert*/
+[class*="categoryWrapper"]:has([id*="shop-item-1262491137386614812"]) [id*="shop-item"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+	--chat-border: rgb(16, 17, 19);
+	border: solid 2px;
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1262491137386614812"]) [type="button"]:not([aria-label="Close"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1262491137386614812"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1263391185897259119.png"]) [class*="collectibleInfo"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1263391185897259119.png"]) [class*="collectibleInfo"] [type="button"] {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1263391185897259119.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
 
 /*Fark Fantasy*/
@@ -368,9 +406,6 @@
 	border: solid 2px;
 }
 [class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [id*="shop-item"]:not(:has([class*="profileEffectShopPreview"])) [class*="defaultColor"] {
-	color: black;
-}
-[class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [id*="shop-item-1243619153688920206"] [class*="defaultColor"] {
 	color: black;
 }
 [class*="categoryWrapper"]:has([id*="shop-item-1217624148080332820"]) [type="button"]:not([aria-label="Close"]) {
