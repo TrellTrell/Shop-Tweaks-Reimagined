@@ -740,3 +740,42 @@
 [src*="/sakura/thumbnail"] {
     content: url(https://raw.githubusercontent.com/TrellTrell/Shop-Tweaks-Reimagined/main/assets/sakura-thumbnail.png);
 }
+
+
+/* Effect Preview Tool*/
+[id*="profile-effects-preview-tool"] [class*="col_"] [class*="previewCard_"] {
+	width: 240px;
+	background-image: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/352db5d6852138aabc88.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+[id*="profile-effects-preview-tool"] [class*="col_"] [class*="previewCardImage_"] {
+	background-size: 100%;
+}
+[id*="profile-effects-preview-tool"] [class*="col_"] [class*="previewCardFooter_"] {
+	height: 70px;
+}
+[id*="profile-effects-preview-tool"] [class*="col_"] [class*="grid_"] {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+	grid-gap: 40px;
+}
+[class*="theme-dark"] [id*="profile-effects-preview-tool"] [src="/assets/7fb421dd1d5658be99a9.png"] {
+	content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/352db5d6852138aabc88.png);
+}
+[class*="theme-dark"] [id*="profile-effects-preview-tool"] [src="/assets/8b556390694bce201831.png"] {
+	content: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/352db5d6852138aabc88.png);
+}
+[id*="profile-effects-preview-tool"] [class*="controls"] {
+	margin-top: 0px;
+}
+[id*="profile-effects-preview-tool"] [class*="layerPreview"] {
+	background-image: url(https://raw.githubusercontent.com/DTACat/Collectibles/main/Images/352db5d6852138aabc88.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+[id*="profile-effects-preview-tool"] [class*="input"] {
+	background: rgb(150, 153, 189);
+	border: none;
+	border-radius: 5px;
+}
