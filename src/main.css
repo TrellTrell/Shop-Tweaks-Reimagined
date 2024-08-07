@@ -389,7 +389,7 @@
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1263391185897259119.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
 }
-[class*="notInteractive"] {
+[class*="categoryWrapper"]:has([id*="shop-item-1266160780928352268"]) [class*="notInteractive"] {
 	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
 	border: solid rgb(16, 17, 19) 2px;
 }
