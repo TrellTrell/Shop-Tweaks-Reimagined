@@ -1,5 +1,11 @@
-[class*="shop"] [class*="headerBar"]:before {
-    content: "Please note that to abuse localized pricing for collectibles, purchase your desired item on the mobile shop.";
+[class*="shopCard"] [class*="fadeInAvatarImg"] {
+    content: url(https://discord.com/assets/a17cf3d2e50d1dbd9278.png);
+    animation: none !important;
+}
+
+[class*="shopCard"]:has([class*="profileEffect"]) [class*="fadeInAvatarImg"] {
+    content: url(https://discord.com/assets/ff84fa219ab7e996ec26.png);
+    animation: none !important;
 }
 
 [class*="shop"] [class*="pageWrapper"] {
@@ -199,6 +205,56 @@
 [class*="popularPicks"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(0, 157, 255), rgb(0, 157, 255));
 	color: black;
+}
+
+/*The Vault*/
+[class*="categoryWrapper"]:has([id*="shop-item-1277733174767783966"]) [id*="shop-item"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+	border: solid rgb(16, 17, 19) 2px;
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1277733174767783966"]) [type="button"]:not([aria-label="Close"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1277733174767783966"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1277733175224701010"]) [class*="collectibleInfo"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1277733175224701010"]) [class*="collectibleInfo"] [type="button"] {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1277733175224701010"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1277733174767783966"]) [class*="notInteractive"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+	border: solid rgb(16, 17, 19) 2px;
+}
+
+/*Dojo*/
+[class*="categoryWrapper"]:has([id*="shop-item-1271174154514595891"]) [id*="shop-item"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+	border: solid rgb(16, 17, 19) 2px;
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1271174154514595891"]) [type="button"]:not([aria-label="Close"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1271174154514595891"]) [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1271173898846601349"]) [class*="collectibleInfo"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1271173898846601349"]) [class*="collectibleInfo"] [type="button"] {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1271173898846601349"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
+	background-image: linear-gradient(90deg, rgb(89, 102, 243), rgb(89, 102, 243));
+}
+[class*="categoryWrapper"]:has([id*="shop-item-1271174154514595891"]) [class*="notInteractive"] {
+	background-image: linear-gradient(rgb(16, 17, 19), rgb(16, 17, 19));
+	border: solid rgb(16, 17, 19) 2px;
 }
 
 /*Robert*/
@@ -644,32 +700,6 @@
 }
 [class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149562562103484467.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
 	background-image: linear-gradient(90deg, rgb(0, 107, 75), rgb(0, 107, 75));
-}
-
-/*Breakfast*/
-[class*="categoryWrapper"]:has([id*="shop-item-1144056139584127058"]) [id*="shop-item"] {
-	background-image: linear-gradient(rgb(232, 178, 107), rgb(122, 58, 0));
-	--chat-border: rgb(149, 98, 53);
-	border: solid 2px;
-}
-[class*="categoryWrapper"]:has([id*="shop-item-1144056139584127058"]) [type="button"]:not([aria-label="Close"]) {
-	background-image: linear-gradient(90deg, rgb(255, 195, 85), rgb(255, 149, 55));
-	color: black;
-}
-[class*="categoryWrapper"]:has([id*="shop-item-1144056139584127058"]) [type="button"]:has([class*="giftButtonInner"]) {
-	background-image: linear-gradient(90deg, rgb(255, 149, 55), rgb(255, 149, 55));
-	color: black;
-}
-[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149563080074854410.png"]) [class*="collectibleInfo"] {
-	background-image: linear-gradient(rgb(232, 178, 107), rgb(122, 58, 0));
-}
-[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149563080074854410.png"]) [class*="collectibleInfo"] [type="button"] {
-	background-image: linear-gradient(90deg, rgb(255, 195, 85), rgb(255, 149, 55));
-	color: black;
-}
-[class*="modal"]:has([src*="https://cdn.discordapp.com/app-assets/1096190356233670716/1149563080074854410.png"]) [class*="collectibleInfo"] [type="button"]:has([class*="giftButtonInner"]) {
-	background-image: linear-gradient(90deg, rgb(255, 149, 55), rgb(255, 149, 55));
-	color: black;
 }
 
 /*DisXcore*/
